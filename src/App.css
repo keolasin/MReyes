@@ -1,5 +1,61 @@
-.landing-bin {
+body {
+  background-image: url('/assets/images/large/oceanSky.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main{
+  display: grid;
+}
+
+header {
+  background-color: rgba(71, 66, 77, 0.75);
+  border: 8px #DBE7FB solid;
+  border-style: inset;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  max-height: 90px;
+}
+
+nav {
+  width: 100vw;
+  height: 90px;
   display: flex;
-  height: 100vh;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#home-sprite {
+  display: flex;
+}
+.link-item {
+  color: #DBE7FB;
+  font-style: bold;
+  font-family: "Bungee", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: none;
+  height: content;
+  margin: 27px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box-blurb {
+  background-color: rgba(71, 66, 77, 0.8);
+  width: 70vw;
+  max-width: 984px;
+  min-width: 900px;
+  height: 60vh;
+  max-height: 650px;
+  min-height: 360px;
+}
+
+#about {
+  border: 20px rgba(71, 66, 77, 0.8) solid;
+  border-radius: 100%;
 }

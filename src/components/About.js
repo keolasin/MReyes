@@ -7,9 +7,13 @@ class About extends Component {
 
   render(){
     return(
-      <section>
-        filler
-      </section>
+      <article>
+        <section className='box-blurb'>
+        </section>
+        <img id='about'
+             src='/assets/images/large/about.png'
+             alt='Matthew linkedIn photo'/>
+      </article>
     );
   }
 }
