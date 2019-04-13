@@ -100,20 +100,23 @@ a:hover{
 li {
   font-size: 1.2em;
   color: #DBE7FB;
+  margin-right: 10px;
 }
 
 .type-head {
   color: #798BE4;
   font-size: 2.5em;
+  margin-top: 30px;
 }
 
 .title {
   font-size: 1.6em;
   color: #BC9612;
+  margin-top: 15px;
 }
 
 .dates{
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-style: italic;
 }
 
