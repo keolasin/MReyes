@@ -7,12 +7,13 @@ class About extends Component {
 
   render(){
     return(
-      <article>
+      <article className='info-container'>
+        <img className='image-border'
+           src='/assets/images/large/about.png'
+           alt='Matthew linkedIn photo'/>
         <section className='box-blurb'>
+          <p>I'm a web developer in <strong>San Francisco</strong> with a background in healthcare and biological sciences. I believe in lifelong learning and seeking out new experiences to challenge myself.</p>
         </section>
-        <img id='about'
-             src='/assets/images/large/about.png'
-             alt='Matthew linkedIn photo'/>
       </article>
     );
   }

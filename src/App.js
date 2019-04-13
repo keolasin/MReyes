@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Landing from './components/Landing.js';
-import Education from './components/Education.js';
+import Experience from './components/Experience.js';
 import About from './components/About.js';
 import Portfolio from './components/Portfolio.js';
 import Contact from './components/Contact.js';
@@ -24,7 +24,7 @@ class App extends Component {
           <main>
             <Route exact path ="/" component={Landing} />
             <Route path="/about" component={About} />
-            <Route path="/education" component={Education} />
+            <Route path="/experience" component={Experience} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
           </main>
