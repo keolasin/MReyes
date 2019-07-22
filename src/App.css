@@ -57,8 +57,9 @@ a:hover{
 /*Articles, containers css*/
 .info-container{
   display: flex;
-  margin-top: 25px;
-  display: flex;
+  margin-top: 15vh;
+  height: 50vh;
+  width: 100vw;
   justify-content: space-around;
   align-items: center;
 }
@@ -78,8 +79,9 @@ a:hover{
   font-size: 2.5em;
   text-align: center;
   margin: auto 40px;
+  height: 100%;
   font-family: "Forma DJR Display", Serif;
-  font-style: bold;
+  font-style: normal;
 }
 
 .image-border {
@@ -103,6 +105,11 @@ li {
   margin-right: 10px;
 }
 
+.description {
+  font-size: 1.2em;
+  color: #DBE7FB;
+}
+
 .type-head {
   color: #798BE4;
   font-size: 2.5em;
@@ -121,7 +128,25 @@ li {
 }
 
 /* portfolio page css */
+#portfolio {
+  overflow: auto;
+  display: flex;
+  width: 50vw;
+  height: 70vh;
+  flex-direction: column;
+}
 
+h6 {
+  font-size: 1em;
+  color: #DBE7FB;
+  font-style: normal;
+  font-weight: lighter;
+  margin: 5px;
+}
+
+.card-container {
+  width: 100%;
+}
 
 
 /* contact page css */
