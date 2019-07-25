@@ -48,7 +48,7 @@ class Portfolio extends Component {
             />
 
             <PortfolioCard
-              name="Fundamentals"
+              name="Algorithms"
               image="/assets/images/large/education.png"
               link="https://repl.it/@keolasin"
               description="A series of repl.it code snippets to demonstrate common computer science algorithms and data structures"

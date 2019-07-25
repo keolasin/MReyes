@@ -69,6 +69,15 @@ nav {
   margin: 26px;
 }
 
+.link-item-card {
+  color: #DBE7FB;
+  font-style: normal;
+  font-family: "Bungee", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: none;
+}
+
 strong {
   color: #BC9612;
 }
@@ -150,9 +159,10 @@ li {
 }
 
 .card-container {
-  flex-basis: auto;
   margin: 10px;
+  width: 50%;
 }
+
 .card-description {
   font-size: 1em;
   color: #DBE7FB;
@@ -184,7 +194,7 @@ li {
 
 
 h6 {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #DBE7FB;
   font-style: normal;
   font-weight: lighter;

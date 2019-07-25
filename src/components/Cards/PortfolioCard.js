@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap';
 
 
 
+
 class PortfolioCard extends Component {
   constructor(props){
     super(props);
@@ -20,12 +21,17 @@ class PortfolioCard extends Component {
           href={this.props.link}
           target="_blank"
         />
-        <Card.Text class="card-description">
-          <strong>{this.props.name}</strong> {this.props.description}
-        </Card.Text>
-        <Card.Subtitle>
-          <h6><strong>Tools: </strong>{this.props.tools}</h6>
-        </Card.Subtitle>
+        <Card.Body>
+          <Card.Text class="card-description">
+            <strong>{this.props.name}</strong>
+            <p>{this.props.description}</p>
+          </Card.Text>
+          <Card.Subtitle>
+            <Card.Link href={this.props.link} className="link-item-card">Code</Card.Link>
+          </Card.Subtitle>
+
+        </Card.Body>
+
       </Card>
     );
   }
