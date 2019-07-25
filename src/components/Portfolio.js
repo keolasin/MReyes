@@ -10,8 +10,7 @@ class Portfolio extends Component {
         <img className='image-border'
            src='/assets/images/large/portfolio.png'
            alt='San Francisco Museum of Modern Art'/>
-        <section className='box-blurb' id='portfolio'>
-          <h1 className='type-head'>Front-end</h1>
+        <section className='box-blurb' id="portfolio">
             <PortfolioCard
               name="Jams"
               image="/assets/images/large/education.png"
@@ -30,7 +29,6 @@ class Portfolio extends Component {
               alt=""
             />
 
-          <h1 className='type-head'>Back-end</h1>
             <PortfolioCard
               name="Voter"
               image="/assets/images/large/education.png"
@@ -49,7 +47,6 @@ class Portfolio extends Component {
               alt=""
             />
 
-          <h1 className='type-head'>Data structures and Algorithms</h1>
             <PortfolioCard
               name="Fundamentals"
               image="/assets/images/large/education.png"
