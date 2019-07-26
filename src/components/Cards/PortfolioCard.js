@@ -22,9 +22,8 @@ class PortfolioCard extends Component {
           target="_blank"
         />
         <Card.Body>
-          <Card.Text class="card-description">
-            <strong>{this.props.name}</strong>
-            <p>{this.props.description}</p>
+          <Card.Text className="card-description">
+            <strong>{this.props.name}</strong> {this.props.description}
           </Card.Text>
           <Card.Subtitle>
             <Card.Link href={this.props.link} className="link-item-card">Code</Card.Link>
