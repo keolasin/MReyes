@@ -11,7 +11,7 @@ class Contact extends Component {
         <section className='box-blurb'>
           <img id='bike' src='/assets/images/large/bike_portrait.png' alt='Matthew on his bike portrait'/>
           <p>Want to chat?</p>
-            <a id='email' href="mailto:Matthew@mreyes.info?Subject=Hi%20Matt">Matthew@mreyes.info</a>
+          <a id='email' href="mailto:Matthew@mreyes.info?Subject=Hi%20Matt">Matthew@mreyes.info</a>
           <p>San Francisco, CA</p>
         </section>
       </article>
