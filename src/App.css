@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background-image: url('/assets/images/large/oceanSky.png');
+  background-image: url(https://mreyes.s3-us-west-1.amazonaws.com/assets/images/oceanSky.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -194,7 +194,7 @@ h6 {
   margin-top: 20px;
 }
 
-#email {
+.email {
   color: #BC9612;
   font-style: bold;
   font-family: "Forma DJR Display", sans-serif;
@@ -206,42 +206,51 @@ h6 {
 
 @media all and (max-width: 1300px){
   body {
-    background-image: url('/assets/images/large/jtree.png');
+    background-image: url(https://mreyes.s3-us-west-1.amazonaws.com/assets/images/jtree.jpg);
+    background-color: rgba(71, 66, 77, 0.75);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
+
   .App {
     display: flex;
     width: 100vw;
     height: 100vh;
   }
+
   .App > * {
     flex: 1 100%;
   }
+
   nav {
     flex-flow: column wrap;
     justify-content: space-around;
   }
+
   header {
     max-height: 35%;
     width: 100vw;
   }
+
   img {
     display: none;
   }
+
   main {
     display: flex;
     width: 100vw;
     height: 100%;
     max-height: 100vh;
   }
+
   .info-container {
     flex: 1 100%;
     width: 100%;
     height: 100%;
     margin: 0;
   }
+
   .box-blurb {
     display: flex;
     background-color: rgba(71, 66, 77, 0.9);
@@ -253,11 +262,12 @@ h6 {
     align-items: center;
     align-content: center;
     overflow: auto;
-
   }
+
   .box-blurb > p {
     margin: 5px;
   }
+
   #portfolio {
     display: flex;
     flex-flow: row wrap;
@@ -266,16 +276,20 @@ h6 {
     justify-content: center;
     overflow: auto;
   }
+
   .card {
     display: flex;
   }
+
   .card-container {
     flex: 1 100%;
   }
+
   .description {
     font-size: 1em;
   }
-  #email {
+
+  .email {
     color: #BC9612;
     font-style: bold;
     font-family: "Forma DJR Display", sans-serif;

@@ -9,7 +9,7 @@ class Experience extends Component {
     return(
       <article className='info-container'>
         <img className='image-border'
-           src='/assets/images/large/education.png'
+           src='https://mreyes.s3-us-west-1.amazonaws.com/assets/images/education.png'
            alt='Education, building in Palma de Mallorca'/>
         <section className='box-blurb'>
           <ul id='experience'>
