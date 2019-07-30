@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import { Card } from 'react-bootstrap';
-
-
-
 
 class PortfolioCard extends Component {
   constructor(props){
@@ -11,8 +7,8 @@ class PortfolioCard extends Component {
 
   render(){
     return(
-      <Card className="card-container">
-        <Card.Img
+      <section className="card-container">
+        <img
           variant="top"
           width={150}
           height={150}
@@ -21,17 +17,11 @@ class PortfolioCard extends Component {
           href={this.props.link}
           target="_blank"
         />
-        <Card.Body>
-          <Card.Text className="card-description">
-            <strong>{this.props.name}</strong> {this.props.description}
-          </Card.Text>
-          <Card.Subtitle>
-            <Card.Link href={this.props.link} className="link-item-card">Code</Card.Link>
-          </Card.Subtitle>
-
-        </Card.Body>
-
-      </Card>
+        <p className="card-description">
+          <strong>{this.props.name}</strong> {this.props.description}
+        </p>
+        <button href={this.props.link} className="code-button" type='button' target='_blank'>Code</button>
+      </section>
     );
   }
 }
