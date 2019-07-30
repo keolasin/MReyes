@@ -146,8 +146,10 @@ li {
 }
 
 .card-container {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 30%;
   margin: 10px;
-  width: 50%;
 }
 
 .card-container > img {
