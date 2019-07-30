@@ -50,13 +50,15 @@ nav {
   text-decoration: none;
 }
 
-.link-item-card {
+.code-button {
   color: #DBE7FB;
   font-style: normal;
   font-family: "Bungee", sans-serif;
   font-size: 0.8em;
   text-align: center;
   text-decoration: none;
+  background-color: rgba(71, 66, 77, 0.75);
+  border: none;
 }
 
 strong {
