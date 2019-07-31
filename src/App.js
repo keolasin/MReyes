@@ -14,7 +14,7 @@ class App extends Component {
         <div className="App">
           <header>
             <nav>
-              <Link id='home-sprite' to='/'><img src='https://mreyes.s3-us-west-1.amazonaws.com/assets/images/bike_small.png' alt='Matthew on his bike portrait'/></Link>
+              <Link to='/'><img id='home-sprite' src='https://mreyes.s3-us-west-1.amazonaws.com/assets/images/bike_small.png' alt='Matthew on his bike portrait'/></Link>
               <Link className='link-item' to='/about'>About</Link>
               <Link className='link-item' to='/experience'>Experience</Link>
               <Link className='link-item' to='/portfolio'>Portfolio</Link>

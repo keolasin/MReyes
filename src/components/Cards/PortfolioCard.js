@@ -7,7 +7,7 @@ class PortfolioCard extends Component {
 
   render(){
     return(
-      <section className="card-container">
+      <div className="card-container">
         <img
           variant="top"
           width={150}
@@ -20,8 +20,8 @@ class PortfolioCard extends Component {
         <p className="card-description">
           <strong>{this.props.name}</strong> {this.props.description}
         </p>
-        <button href={this.props.link} className="code-button" type='button' target='_blank'>Code</button>
-      </section>
+        <a href={this.props.link} className="code-button" type='button' target='_blank'>Code</a>
+      </div>
     );
   }
 }

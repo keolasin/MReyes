@@ -10,7 +10,7 @@ class Portfolio extends Component {
         <img className='image-border'
            src='https://mreyes.s3-us-west-1.amazonaws.com/assets/images/portfolio.png'
            alt='San Francisco Museum of Modern Art'/>
-        <section className='box-blurb' id="portfolio">
+        <section className='box-blurb portfolio'>
             <PortfolioCard
               name="Jams"
               image=""
